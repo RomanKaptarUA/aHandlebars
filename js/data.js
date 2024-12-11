@@ -1,4 +1,4 @@
-const countries = [
+export const countries = [
     {
       name: "Австралія",
       capital: "Канберра",
@@ -54,4 +54,4 @@ const countries = [
       infected: true
     }
   ];
-  export { countries };
+  // export { countries };
