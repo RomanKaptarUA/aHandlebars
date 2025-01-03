@@ -14,10 +14,16 @@
 
 // .catch(error => console.error('Error loading template: ', error))
 
-import { countries } from './data.js';
-const templateSource = document.getElementById('country-template').innerHTML;
 
-const template = Handlebars.compile(templateSource);
-const renderHTML = countries.map(country => template(country)).join('');
-const container = document.getElementById('app');
-container.innerHTML = renderHTML;
+
+////////////////////////////////////////////2
+
+
+
+// import { countries } from './data.js';
+// const templateSource = document.getElementById('country-template').innerHTML;
+
+// const template = Handlebars.compile(templateSource);
+// const renderHTML = countries.map(country => template(country)).join('');
+// const container = document.getElementById('app');
+// container.innerHTML = renderHTML;
